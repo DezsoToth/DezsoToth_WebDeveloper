@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dezso Toth WD</title>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/f36e1192d3.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f36e1192d3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dezso Toth Web Developer</title>
+</head>
+<body>
+    <header>
+        <nav class="main-navigation">
+            <a href="#" class="oldal-logo">Dezso Toth</a>
+            <ul class="main-navigation__menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-item__link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-item__link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-item__link">Contact</a>
+                </li>    
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="banner-container">
+            <div class="banner-container__titles">
+                <h1>Dezso Toth</h1>
+                <h2>Frontend Web Developer</h2>
+            </div>
+            <button class="btn  btn-primary">Resume</button>
+            <button class="btn  btn-secondary">Let's work together</button>
+        </div>
+        <div class="about-container" id="about">
+            <img 
+                src="./assets/portrait_self.JPG" 
+                alt="Dezso Toth" 
+                class="profile-photo">
+            <h2>Dezso Toth</h2>
+            <h3>Frontend Web Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Labore distinctio ipsa ut. Labore sint nobis perspiciatis!</p>
+            <p>Molestiae rem praesentium dicta possimus excepturi sequi nostrum.</p>
+            <button class="btn  btn-primary">Resume</button>
+            <button class="btn  btn-secondary">Let's work together</button>
+        </div>
+        <div class="main-form-container">
+            <div class="inner-form-container" id="contact">
+                <h3>Say hello.</h3>
+                <h3>Let's work together.</h3>
+                <div class="form-details">
+                    <form class="form-detail" action="https://formspree.io/f/mpznoygv" method="POST">
+                        <label for="vezeteknev">Name</label>
+                        <input type="text" id="vezeteknev" name="vezeteknev" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="tel">Contact number</label>
+                        <input type="tel" name="tel" id="tel" required>
+                        <label for="szakma">Leave a message</label>
+                        <textarea type="text" name="subject" id="szakma" required></textarea>
+                        <input type="submit" value="Send message" class="btn btn-secondary">
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul class="media-ikonok">
+            <li class="media-ikon">
+                <a href="https://github.com/DezsoToth" class="media-ikon__link" target="_blank"><i class="fa-brands fa-github" ></i></a>
+            </li>
+            <li class="media-ikon">
+                <a href="#" class="media-ikon__link" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li class="media-ikon">
+                <a href="https://www.youtube.com/@dezsotothphotography" class="media-ikon__link" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

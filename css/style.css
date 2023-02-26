@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --mobile-margin-left: 3rem;
+    --box-shadow-default: 0px 8px 15px rgba(0, 0, 0, .5);
+    --box-shadow-hover: 0px 8px 15px rgba(0, 0, 0, .7);
+}
+
+html {
+    min-width: 380px;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 4.8rem;
+    padding: 2rem;
+    text-shadow: var(--box-shadow-default);
+}
+
+h2 {
+    font-size: 3.6rem;
+    padding: 2rem;
+    text-shadow: var(--box-shadow-default);
+}
+
+.oldal-logo, 
+.nav-item__link {
+    text-decoration: none;
+    color: #666666;
+    transition: .3s;
+    border-radius: .1rem;
+}
+
+.nav-item__link:hover,
+.oldal-logo:hover {
+    text-shadow: var(--box-shadow-hover);
+    color: #111111;
+}
+
+.nav-item__link.active {
+    color: black;
+    font-weight: 700;
+}
+.oldal-logo {
+    font-size: 3rem;
+    margin-left: var(--mobile-margin-left);
+    margin-right: 2rem;
+}
+
+.main-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: lightgray;
+    width: 100%;
+    box-shadow: 0px 8px 20px grey;
+}
+
+.main-navigation__menu {
+    display: flex;
+    margin-right: 30px;
+}
+
+.nav-item {
+    margin: 20px;
+    font-size: 2rem;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 0;
+    background-image: url(../assets/light-grey-04.jpg);
+    width: 100%;
+    height: 600px;
+    
+}
+
+.banner-container__titles {
+    margin: 1rem 0 2rem 0;
+}
+
+.btn {
+    width: 15rem;
+    height: 4.5rem;
+    margin: 2rem 1.5rem 2rem ;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    border: none;
+    transition: .3s;
+    border-radius: .8rem;
+    box-shadow: var(--box-shadow-default);
+}
+
+.btn:hover {
+    box-shadow: var(--box-shadow-hover);
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #111111;
+    color: whitesmoke;
+}
+
+.about-container {
+    margin: var(--mobile-margin-left);
+    text-align: center;
+    border: 3px solid black;
+    padding: 15rem 5rem;
+    border-radius: 1.5rem;
+    margin: 20rem 3rem 10rem 3rem;
+}
+.about-container img {
+    width: 250px;
+}
+
+.about-container p {
+    text-align: center;
+    margin: 3rem 10vw;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    box-shadow: var(--box-shadow-hover);
+    margin: 1.5rem 0 10rem 0;
+}
+
+.main-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    height: 720px;
+    border-radius: 3px;
+    margin: 100px 0;
+}
+
+.inner-form-container {
+    background-color: lightgray;
+    translate: (-50%, -50%);
+    width: 450px;
+    height: 600px;
+    margin: 10px;
+    box-shadow: var(--box-shadow-default);
+    border-radius: 5px;
+}
+
+.inner-form-container h3 {
+    text-align: left;
+    color: var(--black);
+    text-shadow: none;
+    font-family: var(--mainFontNormal);
+    font-weight: 700;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.form-details {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    width: 440px;
+    height: 485px;
+    margin: 5px;
+    
+    border-radius: 3px;
+}
+
+.form-details > .btn-jelentkezes {
+    align-self: center;
+    width: 280px;
+    box-shadow: none;
+}
+
+.form-detail {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--mainFontNarrow);
+    font-weight: 700;
+    padding: 15px;
+    line-height: 30px;
+}
+
+.form-detail input:last-of-type {
+    margin-left: 0;
+}
+
+.form-details a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    padding: 0;
+    margin: 0 1.5rem;
+}
+
+
+#vezeteknev, #email, #tel, #szakma {
+    background-color: var(--white);
+    box-sizing: border-box;
+    max-width: 440x;
+    padding: 10px;
+    border-style: none;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+
+#szakma {
+    height: 150px;
+}
+
+.media-ikonok {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 2rem;
+}
+
+.media-ikon {
+    font-size: 3.2rem;
+    padding: 0 1.6rem;
+    
+}
+
+.media-ikon__link {
+    color: black;
+    transition: .5s;
+    border-radius: .5rem;
+}
+
+.media-ikon__link:hover {
+    box-shadow: var(--box-shadow-hover);
+}
+
+@media only screen and (max-width: 650px) {
+    .oldal-logo {
+        font-size: 2.5rem;
+        margin: auto 10px;
+    }
+    
+    .main-navigation__menu {
+        margin: 0;
+    }
+    
+    .nav-item {
+        margin: 20px 10px;
+        font-size: 1.6rem;
+    }
+
+    .banner-container__titles h2 {
+        font-size: 2.5rem;
+    }
+
+    .about-container {
+        margin: 10rem 3rem;
+        padding: 10rem 1rem;
+    }
+
+    .about-container h3 {
+        padding: 2rem;
+    }
+
+    .about-container p {
+        margin: 3rem 1rem;
+    }
+
+    .about-container img {
+        width: 150px;
+    }
+
+    .main-form-container {
+        margin-right: 1rem;
+    }
+
+    .inner-form-container {
+        width: 320px;
+        margin: 5px;
+    }
+
+    .form-details {
+        width: 310px;
+    }
+}
