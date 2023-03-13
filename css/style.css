@@ -116,6 +116,12 @@ h2 {
 .btn-primary {
     background-color: #111111;
     color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn-secondary {
+    background-color: whitesmoke;
 }
 
 .about-container {
