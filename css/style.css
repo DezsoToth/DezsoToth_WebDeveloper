@@ -6,7 +6,7 @@
 :root {
     --mobile-margin-left: 3rem;
     --box-shadow-default: 0px 8px 15px rgba(0, 0, 0, .5);
-    --box-shadow-hover: 0px 8px 15px rgba(0, 0, 0, .7);
+    --box-shadow-hover: 0px 8px 15px rgba(0, 0, 0, .9);
 }
 
 html {
