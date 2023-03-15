@@ -284,15 +284,15 @@ h2 {
 
 .poweredbydtp button {
     font-size: 18px;
-    padding: 0 2px;
+    padding: 0 8px;
     background-color: #111111;
     color: var(--main-white);
     transition: .5s;
 }
 
 .poweredbydtp button:hover {
-    text-shadow: 1px 1px 4px rgb(0, 0, 0);
-    font-size: 1.5rem;
+    text-shadow: 1px 1px 6px rgb(255, 255, 255);
+  
 }
 
 .powered {
