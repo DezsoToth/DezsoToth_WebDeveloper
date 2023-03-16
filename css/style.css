@@ -41,6 +41,7 @@ h2 {
     color: #666666;
     transition: .3s;
     border-radius: .1rem;
+    text-shadow: var(--box-shadow-default);
 }
 
 .nav-item__link:hover,
