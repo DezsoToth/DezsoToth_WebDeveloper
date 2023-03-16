@@ -288,6 +288,7 @@ h2 {
     background-color: #111111;
     color: var(--main-white);
     transition: .5s;
+    cursor: pointer;
 }
 
 .poweredbydtp button:hover {
