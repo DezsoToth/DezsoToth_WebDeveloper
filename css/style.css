@@ -139,7 +139,7 @@ h2 {
     padding: 15rem 5rem;
     border-radius: 1.5rem;
     margin: 20rem 3rem 10rem 3rem;
-    box-shadow: var(--box-shadow-hover);
+    box-shadow: var(--box-shadow-default);
 }
 .about-container img {
     width: 250px;
@@ -152,7 +152,7 @@ h2 {
 
 .profile-photo {
     border-radius: 50%;
-    box-shadow: var(--box-shadow-hover);
+    box-shadow: var(--box-shadow-default);
     margin: 1.5rem 0 10rem 0;
 }
 
