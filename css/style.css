@@ -139,6 +139,7 @@ h2 {
     padding: 15rem 5rem;
     border-radius: 1.5rem;
     margin: 20rem 3rem 10rem 3rem;
+    box-shadow: var(--box-shadow-hover);
 }
 .about-container img {
     width: 250px;
