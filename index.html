@@ -11,8 +11,18 @@
     <title>Dezso Toth Web Developer</title>
 </head>
 <body>
-    <header>
-        <nav class="main-navigation">
+    <header id="home">
+        <label class="hamburger" for="nav-toggle"></label>
+        <input id="nav-toggle" type="checkbox" class="hidden" />
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolios">Portfolios</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- <nav class="main-navigation">
             <a href="#" class="oldal-logo">Dezso Toth</a>
             <ul class="main-navigation__menu">
                 <li class="nav-item">
@@ -28,7 +38,7 @@
                     <a href="#contact" class="nav-item__link">Contact</a>
                 </li>      
             </ul>
-        </nav>
+        </nav> -->
     </header>
     <main>
         <div class="banner-container">
@@ -93,7 +103,8 @@
     </footer>
     <div class="poweredbydtp">
         <p class="powered">Powered by </p>
-        <button>DTP</button>
+        <a href="#home" class="button">DTP</a>
+        <!-- <button>DTP</button> -->
     </div>
 </body>
 </html>
