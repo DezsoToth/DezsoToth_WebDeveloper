@@ -234,7 +234,6 @@ header label:focus {
 .form-details {
     display: flex;
     flex-direction: column;
-    position: absolute;
     background-color: white;
     width: 310px;
     height: 485px;
