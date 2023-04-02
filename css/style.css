@@ -101,7 +101,6 @@ nav a {
   
 header input[type="checkbox"]:checked ~ nav {
     max-height: 150px;
-    border-bottom: #404040 5px solid;
 }
 
 header a,
