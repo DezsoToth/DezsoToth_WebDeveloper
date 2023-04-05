@@ -333,15 +333,15 @@ header label:focus {
 .poweredbydtp a {
     font-size: 18px;
     padding: 0 8px;
-    background-color: #111111;
-    color: var(--main-white);
+   
+    color: #e97c00;
     transition: .5s;
     cursor: pointer;
     border: none;
 }
 
 .poweredbydtp a:hover {
-    text-shadow: 1px 1px 6px rgb(255, 255, 255);
+    color: #ffaa48;
   
 }
 
