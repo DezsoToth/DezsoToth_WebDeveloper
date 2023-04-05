@@ -176,6 +176,9 @@ header label:focus {
     color: #111111;
     text-align: center;
 }
+.btn-secondary:hover {
+    background-color: #e97c00;
+}
 
 .about-container {
     margin: var(--mobile-margin-left);
