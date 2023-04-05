@@ -369,6 +369,10 @@ header label:focus {
         display: inline-block;
         padding: 15px 1em;
     }
+
+    .banner-container {
+        padding-left: 140px
+    }
     
     .banner-container__titles h2 {
         font-size: 3.6rem;
