@@ -113,7 +113,7 @@ header a:hover,
 header a:focus,
 header label:hover,
 header label:focus {
-    background-color: #191919;
+    background-color: #e97c00;
 }
 
 .banner-container {
@@ -166,7 +166,7 @@ header label:focus {
 }
 
 .btn-primary {
-    background-color: #111111;
+    background-color: #e97c00;
     color: whitesmoke;
     text-align: center;
 }
