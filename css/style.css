@@ -303,12 +303,12 @@ header label:focus {
 
 .media-ikon__link {
     color: black;
-    transition: .5s;
+    transition: .3s;
     border-radius: .5rem;
 }
 
 .media-ikon__link:hover {
-    box-shadow: var(--box-shadow-hover);
+    color: #e97c00;
 }
 
 .footer-copyright {
