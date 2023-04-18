@@ -334,7 +334,6 @@ header label:focus {
 .poweredbydtp a {
     font-size: 18px;
     padding: 0 8px;
-   
     color: #e97c00;
     transition: .5s;
     cursor: pointer;
@@ -370,8 +369,12 @@ header label:focus {
         padding: 15px 1em;
     }
 
-    .banner-container {
-        padding-left: 140px
+    .banner-container__titles {
+        margin-left: 150px
+    }
+
+    .banner-container a {
+        margin-left: 175px;
     }
     
     .banner-container__titles h2 {
