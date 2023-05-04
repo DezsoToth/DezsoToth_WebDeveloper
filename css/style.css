@@ -125,6 +125,8 @@ header label:focus {
     background-image: url(../assets/light-grey-04.jpg);
     width: 100%;
     height: 820px;
+    box-shadow: var(--box-shadow-default)
+
 }
 
 .banner-container a {
