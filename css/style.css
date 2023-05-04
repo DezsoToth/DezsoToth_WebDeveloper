@@ -246,7 +246,7 @@ header label:focus {
     border-radius: 3px;
 }
 
-.form-details > .btn-jelentkezes {
+.form-details > .btn-secondary {
     align-self: center;
     width: 280px;
     box-shadow: none;
